@@ -1,7 +1,7 @@
 # Evtx2json
 Import Windows EventLogs(.evtx files) to JSON File.
 
-I decide to modified some python code to process huge Windows EventLogs with pure-Python software.
+I decided to modified some python code to process huge Windows EventLogs with pure-Python software.
 
 evtx2json uses Rust library [pyevtx-rs](https://github.com/omerbenamram/pyevtx-rs).
 
