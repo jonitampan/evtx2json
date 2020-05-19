@@ -1,2 +1,0 @@
-[console_scripts]
-evtx2json = evtx2json.evtx2json:main
