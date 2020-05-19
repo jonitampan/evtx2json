@@ -64,7 +64,7 @@ RAM: DDR4 16GB
 $ pip install git+https://github.com/jonitampan/evtx2json
 ```
 
-The source code for evtx2es is hosted at GitHub, and you may download, fork, and review it from this repository(https://github.com/jonitampan/evtx2json).
+The source code for evtx2json is hosted at GitHub, and you may download, fork, and review it from this repository(https://github.com/jonitampan/evtx2json).
 
 Please report issues and feature requests.
 
