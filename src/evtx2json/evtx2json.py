@@ -16,8 +16,7 @@ class Write2JsonUtils(object):
     def write_file(self, records, filepath) -> None:
        outFN = str(filepath) + ".json"
        outF = open( outFN , "w")
-       for line in records:
-           outF.write(json.dumps(line))
+       outF.write(json.dumps(records))
        outF.write("\n")
        outF.close()
        print("\nOutput File : " + outFN)
