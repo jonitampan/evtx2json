@@ -18,7 +18,7 @@ class Write2JsonUtils(object):
        outF = open( outFN , "w")
        for line in records:
            outF.write(json.dumps(line))
-       outF.write("\n")
+           outF.write("\n")
        outF.close()
        print("\nOutput File : " + outFN)
 
